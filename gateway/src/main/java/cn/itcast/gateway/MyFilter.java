@@ -43,4 +43,7 @@ public class MyFilter implements GlobalFilter, Ordered {
     public int getOrder() {
         return -1;
     }
+
+
+    //一共三种类型的过滤器   当前路由的过滤器   defaultFilters    globalFilter  三种
 }
