@@ -2,6 +2,7 @@ package cn.itcast.order;
 
 import cn.itcast.feignClient.feign.UserFeignClient;
 import cn.itcast.order.config.ConfigLoggerLevel;
+import com.ctrip.framework.apollo.spring.annotation.EnableApolloConfig;
 import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.RandomRule;
 import org.mybatis.spring.annotation.MapperScan;
@@ -13,6 +14,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @MapperScan("cn.itcast.order.mapper")
+@EnableApolloConfig
 @SpringBootApplication
 //  defaultConfiguration  指定日志级别    clients 指定需要调用的feign客户端
 @EnableFeignClients(clients = UserFeignClient.class, defaultConfiguration = ConfigLoggerLevel.class)

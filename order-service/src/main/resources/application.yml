@@ -38,3 +38,9 @@ ribbon:
     enabled: true
     clients:
       - user-service
+
+# apollo 配置
+app:
+  id: springboot-apollo
+apollo:
+  meta: http://192.168.120.101:8080
