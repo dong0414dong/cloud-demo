@@ -1,40 +1,39 @@
-package cn.itcast.order.service;
+package cn.itcast.douluo.service;
 
-import cn.itcast.feignClient.feign.UserFeignClient;
-//import cn.itcast.feignClient.pojo.User;
-import cn.itcast.feignClient.pojo.User;
-import cn.itcast.order.mapper.OrderMapper;
-import cn.itcast.order.pojo.Order;
+import cn.itcast.douluo.bean.Result;
+import cn.itcast.douluo.bean.Step;
+import cn.itcast.douluo.mapper.StepMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
+
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
 
 @Service
-public class OrderService {
+public class StepService {
 
     @Autowired
-    private OrderMapper orderMapper;
+    private StepMapper stepMapper;
 
-    @Autowired
-    private RestTemplate restTemplate;
+    private SimpleDateFormat yyyyMMdd = new SimpleDateFormat("yyyyMMdd");
 
-    @Autowired
-    private UserFeignClient userFeignClient;
+    public Result queryStepByDate(String dataDate) {
 
-    public Order queryOrderById(Long orderId) {
+        String format = yyyyMMdd.format(new Date());
         // 1.查询订单
-        Order order = orderMapper.findById(orderId);
+        List<Step> steps = stepMapper.findByDate(format);
+        Result result = new Result();
+        for (Step step : steps) {
 
-        //请求用户信息 通过  restTemplate 调用
-        //User user = restTemplate.getForObject("http://localhost:8081/user/" + order.getUserId(), User.class);
-
-        //这种远程调用属于硬编码  不够优雅
-        //User user = restTemplate.getForObject("http://user-service/user/" + order.getUserId(), User.class);
-
-        //使用feign调用
-        User user = userFeignClient.findUserById(order.getUserId());
-        order.setUser(user);
-        // 4.返回
-        return order;
+            if (step.getType().equals(1)) {
+                result.setIce(step.getStepNum().toString());
+            }
+            if (step.getType().equals(2)) {
+                result.setFire(step.getStepNum().toString());
+            }
+        }
+        return result;
     }
 }

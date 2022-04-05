@@ -1,10 +1,17 @@
-package cn.itcast.order.mapper;
+package cn.itcast.douluo.mapper;
 
-import cn.itcast.order.pojo.Order;
+
+import cn.itcast.douluo.bean.Step;
 import org.apache.ibatis.annotations.Select;
 
-public interface OrderMapper {
+import java.util.List;
 
-    @Select("select * from tb_order where id = #{id}")
-    Order findById(Long id);
+public interface StepMapper {
+
+    @Select("select * from douluo_step where id = #{id}")
+    List<Step> findById(Long id);
+
+
+    @Select("select * from douluo_step where data_date = #{dataDate}")
+    List<Step> findByDate(String dataDate);
 }

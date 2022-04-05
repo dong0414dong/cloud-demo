@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/feign-client/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/es_hotel/pom.xml" />
+        <option value="$PROJECT_DIR$/study-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/douluo_service/pom.xml" />
       </list>
     </option>
   </component>

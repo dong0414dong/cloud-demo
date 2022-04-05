@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>纵横出品</title>
+    <style type="text/css" th:inline="text">
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            background-size: 100%, 100%;
+        }
+
+
+    </style>
+</head>
+<body  th:style=" 'background-image: url(http://124.221.79.34:80/222.jpg)'">
+<p style="color : pink ;font-size : 88px ; text-align: center"> 纵横天下</p>
+<p style="color : pink ;font-size : 88px ; text-align: center"> 温馨提示</p>
+<p style="color : pink ;font-size : 88px ; text-align: center"> 今日暗部</p>
+<span>
+     <div style="font-size: 66px ; color: blue ; text-align: center">
+        冰: <span th:text="${result.ice}"></span>
+     </div>
+   <br/>
+
+    <div style="font-size: 66px ; color: red ; text-align: center">
+        火: <span th:text="${result.fire}"></span>
+    </div>
+
+</span>
+
+<p style="color : pink ;font-size : 88px ; text-align: center"> 祝大家游戏愉快</p>
+
+<div style="font-size: 88px ; color: pink ; text-align: center">
+             <span>
+                   <script type="text/javascript">
+                     var date = new Date();
+                     document.write("今日时间：" + date.getFullYear() + "年" + (date.getMonth() + 1) + "月" + date.getDate() + "日" + " 星期" + "日一二三四五六".charAt(date.getDay()));
+                   </script>
+             </span>
+</div>
+</body>
+</html>

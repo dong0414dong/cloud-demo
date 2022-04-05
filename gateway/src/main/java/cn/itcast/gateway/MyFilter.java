@@ -10,6 +10,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
 
+import java.util.UUID;
+
 /**
  * @author ：dongdong
  * @date ：Created in 2022/3/16 0016 17:07
@@ -17,7 +19,7 @@ import reactor.core.publisher.Mono;
  * @modified By：
  */
 
-@Component
+//@Component
 //值越小  优先级越高  执行过滤器的执行顺序
 //@Order(-1)
 public class MyFilter implements GlobalFilter, Ordered {
@@ -42,6 +44,13 @@ public class MyFilter implements GlobalFilter, Ordered {
     @Override
     public int getOrder() {
         return -1;
+    }
+
+    public static void main(String[] args) {
+        UUID uuid = UUID.randomUUID();
+        System.out.println(uuid);
+        String replace = uuid.toString().replace("-", "");
+        System.out.println(replace);
     }
 
 

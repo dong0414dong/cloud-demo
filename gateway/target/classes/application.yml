@@ -5,26 +5,31 @@ spring:
     name: gateway
 
 
-  cloud:
-    nacos:
-      server-addr: 192.168.120.101:8848
+
+  #cloud:
+    #nacos:
+      #server-addr: 192.168.120.101:8848
 
 
 #-------------------------------------gateway 网关配置
-    gateway:
-      routes:
-        - id: user-service   # 唯一标识,指定服务名称
-          #uri: http://127.0.0.1:8080  #属于硬性配置 不推荐
-          uri: lb://user-service  #lb 表示负载均衡  后面跟服务名称
-          predicates:
-            - Path=/user/**  # 断言,判断请求路径符合规则
-          filters:  #这是普通的过滤器,只是针对某个路由下的服务生效
-            #- AddRequestHeader=Truth,hello-world  #给指定的服务添加请求头
-        - id: order-service
-          uri: lb://order-service
-          predicates:
-            - Path=/order/**
-      default-filters:   #这是默认过滤器,对所有的路由都生效
-        - AddRequestHeader=Truth,hello-world  #给全部的请求加请求头
 
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          # gateway 能够进行服务发现
+          enabled: true
+          lower-case-service-id: true # 开启小写验证，默认fegin根据服务名查找都是用的全大写
+      routes:
+        - id: douluo-service   # 唯一标识,指定服务名称
+          #uri: http://127.0.0.1:8080  #属于硬性配置 不推荐
+          uri: lb://douluo-service  #lb 表示负载均衡  后面跟服务名称
+          predicates:
+            - Path=/step/**  # 断言,判断请求路径符合规则
+          filters:  #这是普通的过滤器,只是针对某个路由下的服务生效
+          #- AddRequestHeader=Truth,hello-world  #给指定的服务添加请求头
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka
 

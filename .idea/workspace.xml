@@ -2,12 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d48d0bd-3227-4c43-b827-50e58d4ad192" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/feign-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/feign-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign-client/src/main/java/cn/itcast/feignClient/FeignClientApplicaiton.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign-client/src/main/java/cn/itcast/feignClient/FeignClientApplicaiton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign-client/target/classes/cn/itcast/feignClient/FeignClientApplicaiton.class" beforeDir="false" afterPath="$PROJECT_DIR$/feign-client/target/classes/cn/itcast/feignClient/FeignClientApplicaiton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/douluo_service/src/main/resources/static/image/222.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/douluo_service/src/main/resources/static/image/333.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/douluo_service/src/main/resources/static/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A06Application/A06Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A06Application/MyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A06Application/MyConfig1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A06Application/MyConfig2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A07Application/A07Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A07Application/Bean1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A07Application/Bean2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A08Application/A08Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A08Application/BeanForApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A08Application/BeanForRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A08Application/BeanForSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A08Application/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A09Application/A09Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A09Application/E.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A09Application/F1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A09Application/F2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A09Application/F3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A09Application/F4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A10Application/A10Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A10Application/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A10Application/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-demo/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douluo_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/douluo_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douluo_service/src/main/java/cn/itcast/douluo/DouluoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/douluo_service/src/main/java/cn/itcast/douluo/DouluoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douluo_service/src/main/java/cn/itcast/douluo/bean/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/douluo_service/src/main/java/cn/itcast/douluo/bean/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douluo_service/src/main/java/cn/itcast/douluo/bean/Step.java" beforeDir="false" afterPath="$PROJECT_DIR$/douluo_service/src/main/java/cn/itcast/douluo/bean/Step.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douluo_service/src/main/java/cn/itcast/douluo/mapper/StepMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/douluo_service/src/main/java/cn/itcast/douluo/mapper/StepMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douluo_service/src/main/java/cn/itcast/douluo/service/StepService.java" beforeDir="false" afterPath="$PROJECT_DIR$/douluo_service/src/main/java/cn/itcast/douluo/service/StepService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douluo_service/src/main/java/cn/itcast/douluo/web/StepController.java" beforeDir="false" afterPath="$PROJECT_DIR$/douluo_service/src/main/java/cn/itcast/douluo/web/StepController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douluo_service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/douluo_service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douluo_service/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/douluo_service/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es_hotel/target/classes/META-INF/es_hotel.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign-client/target/classes/META-INF/feign-client.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/cn/itcast/gateway/GateWayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/cn/itcast/gateway/GateWayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/cn/itcast/gateway/MyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/cn/itcast/gateway/MyFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/cn/itcast/gateway/GateWayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/target/classes/cn/itcast/gateway/GateWayApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/cn/itcast/gateway/MyFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/target/classes/cn/itcast/gateway/MyFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/OrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/OrderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A05Application/MapperPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A05Application/MapperPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/StudyApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/bean/Bean1.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/bean/Bean1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/factory/MyBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/factory/MyBeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/factory/MyMapperPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/factory/MyMapperPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/mapper/Mapper1.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/mapper/Mapper1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/mapper/Mapper2.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/mapper/Mapper2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +69,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -51,6 +103,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -59,22 +117,29 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/es_hotel/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/A09Application" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\资料\资料\cloud-demo\douluo_service\src\main\resources\static\image" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.itcast.douluo.web" />
+      <recent name="cn.itcast.douluo.service" />
+      <recent name="cn.itcast.douluo.mapper" />
+      <recent name="cn.itcast.study.mapper" />
       <recent name="cn.itcast.feignClient.pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\资料\资料\cloud-demo\study-demo\src\main\java\cn\itcast\study\A09Application" />
+      <recent name="F:\资料\资料\cloud-demo\douluo_service\src\main\resources\static\image" />
+      <recent name="F:\资料\资料\cloud-demo\douluo_service\src\main\resources\photo" />
       <recent name="F:\资料\资料\cloud-demo\es_hotel\src\main\resources" />
       <recent name="F:\资料\资料\cloud-demo\es_hotel\src\test\java\cn\itcast\hotel" />
-      <recent name="F:\资料\资料\cloud-demo\es_hotel\src\main\java\cn\itcast\hotel\service\impl" />
-      <recent name="F:\资料\资料\cloud-demo\es_hotel\src\main\java\cn\itcast\hotel\service" />
-      <recent name="F:\资料\资料\cloud-demo\es_hotel\src\main\java\cn\itcast\hotel\pojo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -84,13 +149,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OrderApplication">
-    <configuration name="A05Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.feignClient.a05.A05Application" />
-      <module name="feign-client" />
+  <component name="RunManager" selected="Spring Boot.A10Application">
+    <configuration name="A06Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.study.A06Application.A06Application" />
+      <module name="study-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.feignClient.a05.*" />
+          <option name="PATTERN" value="cn.itcast.study.A06Application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DigInAutowired" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.feignClient.beanFactory.DigInAutowired" />
-      <module name="feign-client" />
+    <configuration name="A09Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.study.A09Application.A09Application" />
+      <module name="study-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.feignClient.beanFactory.*" />
+          <option name="PATTERN" value="cn.itcast.study.A09Application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,44 +176,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.order.OrderApplication" />
-      <module name="order-service" />
+    <configuration name="A07Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="study-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.order.*" />
+          <option name="PATTERN" value="cn.itcast.study.A07Application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.study.A07Application.A07Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBeanFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.feignClient.beanFactory.TestBeanFactory" />
-      <module name="feign-client" />
+    <configuration name="A08Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="study-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.feignClient.beanFactory.*" />
+          <option name="PATTERN" value="cn.itcast.study.A08Application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.study.A08Application.A08Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotelIndexDocument.batchDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="es_hotel" />
+    <configuration name="A10Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="study-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.hotel.*" />
+          <option name="PATTERN" value="cn.itcast.study.A10Application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast.hotel" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.hotel.HotelIndexDocument" />
-      <option name="METHOD_NAME" value="batchDocument" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.study.A10Application.A10Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.eureka.EurekaServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -181,6 +250,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="study-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.study.StudyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="user-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.user.UserApplication" />
@@ -188,13 +264,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.A06Application" />
+      <item itemvalue="Application.A09Application" />
+      <item itemvalue="Spring Boot.FeignClientApplicaiton" />
+      <item itemvalue="Spring Boot.GateWayApplication" />
+      <item itemvalue="Spring Boot.HotelApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.StudyApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.A07Application" />
+      <item itemvalue="Spring Boot.A08Application" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.A10Application" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OrderApplication" />
-        <item itemvalue="Application.A05Application" />
-        <item itemvalue="Application.DigInAutowired" />
-        <item itemvalue="Application.TestBeanFactory" />
-        <item itemvalue="JUnit.HotelIndexDocument.batchDocument" />
+        <item itemvalue="Spring Boot.A10Application" />
+        <item itemvalue="Application.A09Application" />
+        <item itemvalue="Spring Boot.A08Application" />
+        <item itemvalue="Spring Boot.A07Application" />
+        <item itemvalue="Application.A06Application" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +303,16 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -251,6 +351,13 @@
       <workItem from="1648478335112" duration="1389000" />
       <workItem from="1648556141820" duration="10676000" />
       <workItem from="1648655063234" duration="1117000" />
+      <workItem from="1648730785094" duration="7846000" />
+      <workItem from="1648898477293" duration="3656000" />
+      <workItem from="1648958323156" duration="30785000" />
+      <workItem from="1649046091797" duration="1622000" />
+      <workItem from="1649062731885" duration="11785000" />
+      <workItem from="1649076875932" duration="5003000" />
+      <workItem from="1649126504784" duration="16948000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1647413717343</created>
@@ -299,62 +406,70 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="261" y="0" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1647414440551" />
-    <state x="436" y="116" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1648564262695">
+    <state x="436" y="116" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1649162712813">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="436" y="116" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1648564262695" />
-    <state x="530" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1648564223161">
+    <state x="436" y="116" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1649162712813" />
+    <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1649160815859">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="530" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1648564223161" />
-    <state x="467" y="53" key="#xdebugger.evaluate" timestamp="1648559115637">
+    <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1649160815859" />
+    <state x="530" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1649149130482">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="467" y="53" key="#xdebugger.evaluate/0.0.1536.834@0.0.1536.834" timestamp="1648559115637" />
+    <state x="530" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1649149130482" />
+    <state x="344" y="330" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1648733851826">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="344" y="330" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1648733851826" />
+    <state x="467" y="53" key="#xdebugger.evaluate" timestamp="1648737326159">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="467" y="53" key="#xdebugger.evaluate/0.0.1536.834@0.0.1536.834" timestamp="1648737326159" />
     <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1647415666677">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="303" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1647415666677" />
-    <state width="705" height="546" key="DebuggerActiveHint" timestamp="1648561850474">
+    <state width="705" height="546" key="DebuggerActiveHint" timestamp="1648737354866">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="705" height="546" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1648561850474" />
-    <state x="499" y="85" key="FileChooserDialogImpl" timestamp="1648049354509">
+    <state width="705" height="546" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1648737354866" />
+    <state x="499" y="85" key="FileChooserDialogImpl" timestamp="1649046662745">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="499" y="85" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1648049354509" />
-    <state width="1483" height="395" key="GridCell.Tab.0.bottom" timestamp="1648656187047">
+    <state x="499" y="85" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1649046662745" />
+    <state width="1483" height="131" key="GridCell.Tab.0.bottom" timestamp="1649162741409">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1483" height="395" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1648656187047" />
-    <state width="1483" height="395" key="GridCell.Tab.0.center" timestamp="1648656187047">
+    <state width="1483" height="131" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1649162741409" />
+    <state width="1483" height="131" key="GridCell.Tab.0.center" timestamp="1649162741409">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1483" height="395" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1648656187047" />
-    <state width="1483" height="395" key="GridCell.Tab.0.left" timestamp="1648656187047">
+    <state width="1483" height="131" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1649162741409" />
+    <state width="1483" height="131" key="GridCell.Tab.0.left" timestamp="1649162741409">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1483" height="395" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1648656187047" />
-    <state width="1483" height="395" key="GridCell.Tab.0.right" timestamp="1648656187047">
+    <state width="1483" height="131" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1649162741409" />
+    <state width="1483" height="131" key="GridCell.Tab.0.right" timestamp="1649162741409">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1483" height="395" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1648656187047" />
-    <state width="1120" height="371" key="GridCell.Tab.1.bottom" timestamp="1648656186473">
+    <state width="1483" height="131" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1649162741409" />
+    <state width="1120" height="288" key="GridCell.Tab.1.bottom" timestamp="1649159887620">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1120" height="371" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1648656186473" />
-    <state width="1120" height="371" key="GridCell.Tab.1.center" timestamp="1648656186473">
+    <state width="1120" height="288" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1649159887620" />
+    <state width="1120" height="288" key="GridCell.Tab.1.center" timestamp="1649159887620">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1120" height="371" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1648656186473" />
-    <state width="1120" height="371" key="GridCell.Tab.1.left" timestamp="1648656186473">
+    <state width="1120" height="288" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1649159887620" />
+    <state width="1120" height="288" key="GridCell.Tab.1.left" timestamp="1649159887620">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1120" height="371" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1648656186473" />
-    <state width="1120" height="371" key="GridCell.Tab.1.right" timestamp="1648656186473">
+    <state width="1120" height="288" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1649159887620" />
+    <state width="1120" height="288" key="GridCell.Tab.1.right" timestamp="1649159887620">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1120" height="371" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1648656186473" />
+    <state width="1120" height="288" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1649159887620" />
     <state width="1048" height="315" key="GridCell.Tab.2.bottom" timestamp="1647871953492">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -371,26 +486,34 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1048" height="315" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1647871953492" />
-    <state x="154" y="0" key="SettingsEditor" timestamp="1648564998211">
+    <state x="154" y="0" key="SettingsEditor" timestamp="1649160594862">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="154" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1648564998211" />
+    <state x="154" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1649160594862" />
     <state x="261" y="86" key="Vcs.Push.Dialog.v2" timestamp="1647415961551">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1647415961551" />
-    <state x="383" y="90" width="769" height="654" key="find.popup" timestamp="1648368554200">
+    <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1649073137154">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="383" y="90" width="769" height="654" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1648368554200" />
-    <state x="0" y="92" key="new project wizard" timestamp="1647659908504">
+    <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1649073137154" />
+    <state x="403" y="292" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1649148575410">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="0" y="92" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1647659908504" />
-    <state x="347" y="0" width="840" height="832" key="search.everywhere.popup" timestamp="1648562808597">
+    <state x="403" y="292" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.834@0.0.1536.834" timestamp="1649148575410" />
+    <state x="383" y="90" width="769" height="654" key="find.popup" timestamp="1648965370688">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="347" y="0" width="840" height="832" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1648562808597" />
+    <state x="383" y="90" width="769" height="654" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1648965370688" />
+    <state x="0" y="92" key="new project wizard" timestamp="1648996034313">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="0" y="92" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1648996034313" />
+    <state x="347" y="0" width="840" height="832" key="search.everywhere.popup" timestamp="1649162987009">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="347" y="0" width="840" height="832" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1649162987009" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -434,6 +557,11 @@
           <url>file://$PROJECT_DIR$/feign-client/src/main/java/cn/itcast/feignClient/a05/A05Application.java</url>
           <line>83</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/study-demo/src/main/java/cn/itcast/study/factory/MyMapperPostProcessor.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -21,31 +21,37 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="study-demo" />
         <module name="gateway" />
         <module name="eureka-server" />
         <module name="feign-client" />
         <module name="es_hotel" />
         <module name="order-service" />
         <module name="user-service" />
+        <module name="douluo_service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-demo" target="1.8" />
+      <module name="douluo_service" target="1.8" />
       <module name="es_hotel" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="feign-client" target="1.8" />
       <module name="gateway" target="1.8" />
       <module name="order-service" target="1.8" />
+      <module name="study-demo" target="1.8" />
       <module name="user-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="douluo_service" options="-parameters" />
       <module name="es_hotel" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="feign-client" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="order-service" options="-parameters" />
+      <module name="study-demo" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
   </component>

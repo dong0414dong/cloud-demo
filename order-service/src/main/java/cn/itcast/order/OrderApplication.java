@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @MapperScan("cn.itcast.order.mapper")
-@EnableApolloConfig
+//@EnableApolloConfig
 @SpringBootApplication
 //  defaultConfiguration  指定日志级别    clients 指定需要调用的feign客户端
 @EnableFeignClients(clients = UserFeignClient.class, defaultConfiguration = ConfigLoggerLevel.class)
